@@ -1,0 +1,165 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure App</string>
+
+
+    <string name="playing_activity_name">NowPlaying</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_playing">Now Playing</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_artist">Artist</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_lyrics">Lyrics</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_playlist">Playlist</string>
+
+    <!-- Activity Explanation text views -->
+    <string name="nowPlayingActivity_TextView">This activity will show and play the current
+    song. There are buttons for moving to the next and previous songs in the playlist, one
+        for a shuffled play and one that repeats the song. A seek bar shows the time position.</string>
+
+    <string name="playlistActivity_TextView"> This activity will show the files in the
+        current playlist.</string>
+
+    <string name="artistActivity_TextView">This activity will search the name of the artist
+ on the internet, or in the music app library and display a picture and a brief description.</string>
+
+
+    <string name="lyricsActivity_TextView">
+
+The wheels go round, the beat goes faster\n
+Its my favourite tune on the Sovietoblaster!\n
+And everyone here drinks vodka and beer\n
+And the dancing queen of Kiev, Ukraine\n
+Drives every boy insane!\n
+\n
+A crazy professor\n
+With a bag full of food\n
+His 18 year old daughter\n
+(She looks so good!)\n
+A fat businessman\n
+With a unique hairstyle\n
+A contract killer -\n
+(You have to see him smile!)\n
+\n
+He s so proud of his gun\n
+Showing it to everyone\n
+On his mobilephone\n
+He s got a picture of his son\n
+There is a mormon preacher -\n
+Black suit and a tie\n
+The train left the station\n
+Kiev, goodbye!\n
+Lets introduce ourselves - we re sitting on a train\n
+That takes us to Berlin from Ukraine\n
+\n
+The wheels go round, the beat goes faster\n
+Its my favourite tune on the Sovietoblaster!\n
+And everyone here drinks vodka and beer\n
+And the dancing queen of Kiev, Ukraine\n
+Drives every boy insane!\n
+\n
+From Ukraine with love\n
+I am like a spy on a mission in a\n
+Palace on wheels\n
+With no air conditioner\n
+Its hot as hell\n
+But we dont care\n
+We have two days\n
+And one night to spare\n
+Our small compartments\n
+Like a telephone cell\n
+Everyone here\n
+Has stories to tell\n
+We are in no hurry\n
+We ve got plenty of time\n
+Tell me your lifestory\n
+I ll tell you mine\n
+\n
+Another round of drinks\n
+Now take out your guitar\n
+There s a party\n
+In the dining car!\n
+\n
+I once used to live here\n
+Now I came back\n
+For these old soviet records\n
+Now they are all in my bag -\n
+Dozens of vinyls\n
+As heavy as bricks\n
+Bringing death to DJs\n
+With all their tricks!\n
+\n
+Forget your Top 10!\n
+I ve got some LPs\n
+That are 100 times funkier\n
+Than Black Eyed Peas!\n
+Crazy balalaikas from\n
+Nineteen Sixty-Five!\n
+You ve been dreaming to hear it\n
+All of your life!\n
+\n
+When there is no wodka left\n
+What shall we do, my friends?\n
+Lets forget our troubles\n
+And DANCE!\n
+
+    </string>
+
+    <!-- Examples -->
+    <string name="artistName">Rotfront</string>
+
+    <string name="Track1">Intro</string>
+    <string name="Track2">B-Style</string>
+    <string name="Track3">Zhiguli</string>
+    <string name="Track4">Sovietoblaster</string>
+    <string name="Track5">Kemények a fények</string>
+    <string name="Track6">Berlin- Barcelona</string>
+    <string name="Track7">Red Mercedes</string>
+    <string name="Track8">Ya Piv</string>
+    <string name="Track9">Remmidemmi</string>
+    <string name="Track10">Sohase Mondd</string>
+    <string name="Track11">Gypsy Eyes (feat. Miss Flint)</string>
+    <string name="Track12">RotFront FM</string>
+    <string name="Track13">Tüz</string>
+    <string name="Track14">Devil</string>
+    <string name="Track15"> Emigrantski Raggamuffin (feat. Smo)</string>
+    <string name="Track16">Klezmerton</string>
+
+
+    <string name="Track1Duration">1:20</string>
+    <string name="Track2Duration">3:45</string>
+    <string name="Track3Duration">3:35</string>
+    <string name="Track4Duration">3:44</string>
+    <string name="Track5Duration">3:53</string>
+    <string name="Track6Duration">3:30</string>
+    <string name="Track7Duration">3:47</string>
+    <string name="Track8Duration">3:57</string>
+    <string name="Track9Duration">2:01</string>
+    <string name="Track10Duration">3:30</string>
+    <string name="Track11Duration">3:47</string>
+    <string name="Track12Duration">3:57</string>
+    <string name="Track13Duration">2:01</string>
+    <string name="Track14Duration">3:30</string>
+    <string name="Track15Duration">3:47</string>
+    <string name="Track16Duration">3:57</string>
+    <string name="zeroDuration">0:00</string>
+
+    <string name="preset">HipHop</string>
+    <string name="openPlaylist">Open playlist...</string>
+    <string name="savePlaylist">Save playlist...</string>
+
+    <!-- Titles -->
+    <string name="equalizerPresets">Presets</string>
+    <string name="genreFilter">Genre</string>
+    <string name="artistFilter">Artist</string>
+    <string name="albumFilter">Album</string>
+
+</resources>

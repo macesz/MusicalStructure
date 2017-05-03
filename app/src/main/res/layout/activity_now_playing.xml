@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.orshimusicalstructure.NowPlaying">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_NavBar"
+        android:orientation="horizontal"
+        style="@style/navBar">
+
+        <TextView
+            android:id="@+id/playing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_playing"
+            style="@style/navBarItem"/>
+
+        <TextView
+            android:id="@+id/albums"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_albums"
+            style="@style/navBarItem"/>
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_artist"
+            style="@style/navBarItem"/>
+
+        <TextView
+            android:id="@+id/playlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_playlist"
+            style="@style/navBarItem"/>
+
+        <TextView
+            android:id="@+id/lyrics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_lyrics"
+            style="@style/navBarItem"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Track4"
+                style="@style/explanation_title"/>
+
+            <ImageView
+                android:layout_width="@dimen/textSize_ExplanationImage"
+                android:layout_height="@dimen/textSize_ExplanationImage"
+                android:src="@drawable/album_cover"
+                style="@style/explanation_image"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zeroDuration"
+                    style="@style/songDurationPlaying"/>
+
+                <SeekBar
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_ButtonGroup"
+                    android:layout_weight="5"
+                    android:thumb="@drawable/seek_thumb"
+                    android:id="@+id/seekBar"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Track4Duration"
+                    style="@style/songDurationPlaying"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_ButtonGroup">
+
+                <ImageButton
+                    android:layout_width="@dimen/size_NowPlayingButton"
+                    android:layout_height="@dimen/size_NowPlayingButton"
+                    android:src="@drawable/shuffle_button"
+                    style="@style/nowPlayingButton"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/size_NowPlayingButton"
+                    android:layout_height="@dimen/size_NowPlayingButton"
+                    android:src="@drawable/previous_button"
+                    style="@style/nowPlayingButton"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/play_button"
+                    style="@style/nowPlayingButton"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/size_NowPlayingButton"
+                    android:layout_height="@dimen/size_NowPlayingButton"
+                    android:src="@drawable/next_button"
+                    style="@style/nowPlayingButton"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/size_NowPlayingButton"
+                    android:layout_height="@dimen/size_NowPlayingButton"
+                    android:src="@drawable/repeat_button"
+                    style="@style/nowPlayingButton"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nowPlayingActivity_TextView"
+                style="@style/explanation_textView"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.orshimusicalstructure.Albums">
+
+    <LinearLayout
+        style="@style/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_NavBar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/playing"
+            style="@style/navBarItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_playing" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/navBarItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_albums" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/navBarItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_artist" />
+
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/navBarItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_playlist" />
+
+        <TextView
+            android:id="@+id/lyrics"
+            style="@style/navBarItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/category_lyrics" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/explanation_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genreFilter" />
+
+        <TextView
+            style="@style/filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artistFilter" />
+
+        <TextView
+            style="@style/filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/albumFilter" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_horizontalDivider"
+        android:background="@color/primary_dark_color" />
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_horizontalDivider"
+        android:background="@color/primary_dark_color" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/Layout_pictures_container">
+
+            <LinearLayout style="@style/Layout_picture_columnes">
+
+                <ImageView
+                    style="@style/main_imageview"
+                    android:src="@drawable/album_cover" />
+
+                <ImageView
+                    style="@style/main_imageview"
+                    android:src="@drawable/rotfront2" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Layout_picture_columnes">
+
+                <ImageView
+                    style="@style/main_imageview"
+                    android:src="@drawable/rotfront3" />
+
+                <ImageView
+                    style="@style/main_imageview"
+                    android:src="@drawable/rotront4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

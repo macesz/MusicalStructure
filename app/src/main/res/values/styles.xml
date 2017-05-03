@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Navigation Bar styles -->
+    <style name="navBar">
+        <item name="android:background">@color/tan_background</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="navBarItem">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/margin_NavBarItems</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Explanation TextViews & Images styles -->
+    <style name="explanation_textView">
+        <item name="android:padding">@dimen/margin_ExplanationText</item>
+    </style>
+
+    <style name="explanation_title">
+        <item name="android:layout_marginTop">@dimen/margin_ExplanationText</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/textSize_ExplanationTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="explanation_image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_ExplanationText</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Songs in playlist $ library styles -->
+    <style name="songNumber">
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+    <style name="songTitle">
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+
+    <style name="songDuration">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+
+    <!-- Playlist open/save styles -->
+    <style name="playlistOperations">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/margin_PlaylistOperations</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Filters -->
+    <style name="filters">
+        <item name="android:textSize">@dimen/textSize_Filters</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Now Playing buttons -->
+    <style name="nowPlayingButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_marginRight">@dimen/margin_NowPlayingButton</item>
+        <item name="android:layout_marginLeft">@dimen/margin_NowPlayingButton</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="songDurationPlaying">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/margin_ButtonGroup</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Layout pictures container theme. Albums-->
+
+    <style name="Layout_pictures_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Layout picture column theme. Albums -->
+
+    <style name="Layout_picture_columnes">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Main Imageview theme. Albums-->
+
+    <style name="main_imageview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">25dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+</resources>
