@@ -23,16 +23,21 @@
     <!-- Activity Explanation text views -->
     <string name="nowPlayingActivity_TextView">This activity will show and play the current
     song. There are buttons for moving to the next and previous songs in the playlist, one
-        for a shuffled play and one that repeats the song. A seek bar shows the time position.</string>
+        for a shuffled play and one that repeats the song. A seek bar shows the time position. For playing the music it will use MediaPlayer class. </string>
 
     <string name="playlistActivity_TextView"> This activity will show the files in the
-        current playlist.</string>
+        current playlist. It will be handled by a Song library, handle the songs  using Playlist class.</string>
+
+    <string name="albumActivity_TextView"> This activity will show the searched albums, and in default the favorite albums, or for first time user just random albums for the Album library, handle the albums using Album Class.</string>
+
 
     <string name="artistActivity_TextView">This activity will search the name of the artist
- on the internet, or in the music app library and display a picture and a brief description.</string>
+ on the internet, or in the music app library and display a picture and a brief description. It will handle the artist using the Artist Class. </string>
 
+    <string name="lyricsActivity_TextView">This activity will search the lyrics of the song
+ on the internet, or in the lyrics app library and display it. It will handle the lyrics using the Lyrics Class.</string>
 
-    <string name="lyricsActivity_TextView">
+    <string name="lyrics_TextView">
 
 The wheels go round, the beat goes faster\n
 Its my favourite tune on the Sovietoblaster!\n
